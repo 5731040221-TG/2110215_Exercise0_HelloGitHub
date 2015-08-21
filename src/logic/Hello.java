@@ -11,6 +11,7 @@ public class Hello {
 		System.out.println(Hello.arrayToString("Array", array));
 		array = Hello.bubbleSort(array);
 		System.out.println(Hello.arrayToString("Sorted Array", array));
+		
 	}
 
 	public static String greetingMessage(){
